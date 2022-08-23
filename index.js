@@ -5,7 +5,7 @@ const db = mysql.createConnection(
     {
         host: 'localhost',
         user: 'root',
-        password: 'rootroot',
+        password: '',
         database: 'work_db'
     },
     console.log(`work_db database`)
@@ -274,6 +274,6 @@ function addEmployee() {
           });
       });
   }
-  
+
 //initialize app.
 init();
